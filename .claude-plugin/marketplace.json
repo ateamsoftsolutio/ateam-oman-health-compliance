@@ -1,0 +1,16 @@
+{
+  "name": "ateam-oman-health",
+  "owner": {
+    "name": "ATeam Soft Solutions"
+  },
+  "metadata": {
+    "description": "Oman healthcare compliance plugins from ATeam Soft Solutions."
+  },
+  "plugins": [
+    {
+      "name": "ateam-oman-health-compliance",
+      "source": "./",
+      "description": "Engineering checklist for Oman healthcare compliance: PDPL as amended in 2026, Cyber Defence Centre approval, TRA cloud rules, MOH health information policy, telehealth, Dhamani and medical devices."
+    }
+  ]
+}
