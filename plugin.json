@@ -1,0 +1,52 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ateam-oman-health-compliance",
+  "version": "1.0.0",
+  "description": "Checks a healthcare software system against Oman's healthcare rules and produces a sourced engineering checklist as a tracked register and an Excel file, then re-checks as engineers close the gaps. Covers the Personal Data Protection Law as amended in 2026 (MTCIT permit, consent, transfers and Cyber Defence Centre approval for data abroad), cloud hosting, government data and cybersecurity rules, the Ministry of Health's health information policy and telehealth rules, Dhamani health insurance, and medical device and pharmacy rules.",
+  "author": {
+    "name": "ATeam Soft Solutions",
+    "url": "https://www.ateamsoftsolutions.com"
+  },
+  "homepage": "https://github.com/ateamsoftsolutio/ateam-oman-health-compliance",
+  "repository": "https://github.com/ateamsoftsolutio/ateam-oman-health-compliance",
+  "license": "MIT",
+  "keywords": [
+    "oman",
+    "healthcare",
+    "compliance",
+    "pdpl",
+    "moh",
+    "dhamani",
+    "health-data",
+    "telehealth",
+    "medical-devices"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Oman Healthcare Compliance",
+        "shortDescription": "Oman healthcare checklist",
+        "longDescription": "Oman Healthcare Compliance checks a healthcare software system against Oman's healthcare rules and gives engineers a checklist they can build against.\n\nIt covers the Personal Data Protection Law as amended by Royal Decree 68/2026 (the MTCIT permit for health data, explicit consent, patient rights, 72-hour breach notice, transfers, and Cyber Defence Centre approval before health data is stored or processed outside Oman), the TRA's rules for health data in the cloud, government data and cybersecurity rules, the 2025 Electronic Transactions Law, the 2026 cybercrime law, the Ministry of Health's National Policy for Health Information Governance, private-establishment licensing, national platforms and telehealth guidance, Dhamani health insurance, and medical device and pharmacy rules.\n\nEvery requirement cites its source and a confidence level, and unconfirmed items become questions, not requirements. The checklist is kept as a register in the project and exported to Excel, and the recheck skill updates it as engineers close the gaps.\n\nThree skills: oman-health-check, oman-health-recheck and oman-health-explain. Instructions only: no servers, hooks or scripts. Engineering readiness, not legal advice or certification.",
+        "developerName": "ATeam Soft Solutions",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://www.ateamsoftsolutions.com",
+        "privacyPolicyURL": "https://github.com/ateamsoftsolutio/ateam-oman-health-compliance/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/ateamsoftsolutio/ateam-oman-health-compliance/blob/main/LICENSE",
+        "supportURL": "https://github.com/ateamsoftsolutio/ateam-oman-health-compliance/issues",
+        "defaultPrompt": [
+          "Run Oman Health Check on this project",
+          "Do we need an MTCIT permit for this system?",
+          "Can we send Omani patient data to an AI API?"
+        ],
+        "brandColor": "#000000",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
