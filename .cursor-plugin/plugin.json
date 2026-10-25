@@ -1,0 +1,33 @@
+{
+  "name": "ateam-oman-health-compliance",
+  "displayName": "Oman Healthcare Compliance by ATeam",
+  "version": "1.0.0",
+  "description": "Checks a healthcare software system against Oman's healthcare rules and produces a sourced engineering checklist as a tracked register and an Excel file, then re-checks as engineers close the gaps. Covers the Personal Data Protection Law as amended in 2026 (MTCIT permit, consent, transfers and Cyber Defence Centre approval for data abroad), cloud hosting, government data and cybersecurity rules, the Ministry of Health's health information policy and telehealth rules, Dhamani health insurance, and medical device and pharmacy rules.",
+  "author": {
+    "name": "ATeam Soft Solutions"
+  },
+  "homepage": "https://github.com/ateamsoftsolutio/ateam-oman-health-compliance",
+  "repository": "https://github.com/ateamsoftsolutio/ateam-oman-health-compliance",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "oman",
+    "healthcare",
+    "compliance",
+    "pdpl",
+    "moh",
+    "dhamani",
+    "health-data",
+    "telehealth",
+    "medical-devices"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "oman",
+    "healthcare",
+    "compliance",
+    "privacy",
+    "health-data"
+  ],
+  "skills": "./skills/"
+}
